@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas: #ECEDEF;
+    --surface: #FFFFFF;
+    --surface-2: #F4F4F5;
+    --line: #E4E4E7;
+    --ink: #0E0E10;
+    --ink-2: #1C1C1F;
+    --ink-line: #2A2A2E;
+    --fg: #111113;
+    --fg-2: #5B5B63;
+    --fg-3: #6E6E76;
+    --on-ink: #F4F4F5;
+    --on-ink-2: #A1A1AA;
+    --accent: #D4FF3F;
+    --on-accent: #111113;
+    --ok: #16A34A;
+    --warn: #D97706;
+    --danger: #DC2626;
+    --ok-ink: #4ADE80;
+    --warn-ink: #FBBF24;
+    --danger-ink: #F87171;
+
+    --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', monospace;
+    --r-panel: 22px;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.panel {
+  background-color: var(--surface);
+  border-radius: var(--r-panel);
+  box-shadow: 0 1px 3px rgba(17, 17, 19, 0.05);
+}
+
+.panel-ink {
+  background-color: var(--ink);
+  color: var(--on-ink);
+  border-radius: var(--r-panel);
+  box-shadow: 0 24px 48px -24px rgba(17, 17, 19, 0.45);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 17, 19, 0.15);
+  border-radius: 9999px;
+}
+.panel-ink ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+}

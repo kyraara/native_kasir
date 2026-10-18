@@ -1,0 +1,7 @@
+{
+  "name": "Native Motor",
+  "description": "Aplikasi manajemen toko sparepart motor: kasir cepat, stok akurat, HPP otomatis, dan pencarian sparepart pakai foto bertenaga AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Foto upload & cache model AI
+uploads/
+.cache/
+
+# Paket deploy hasil npm run package
+deploy/
+
+# Sisa AI Studio & arsip/aset sumber yang tidak dipakai aplikasi (tetap ada di komputer)
+.aistudio/
+*.zip
+src/image/native-motor-svg-lengkap/
+src/image/*.png
+src/image/svg/preview/

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Native Motor"><title>Native Motor</title>
+  <rect width="64" height="64" rx="15" fill="#111111"/>
+  <rect x="3" y="3" width="58" height="58" rx="12.5" fill="#D4F54A"/>
+  <g id="owl">
+    <path d="M14.5 27 Q10.5 16 13.5 6.5 Q19 13.5 27.5 16.5 Z" fill="#111111"/>
+    <path d="M49.5 27 Q53.5 16 50.5 6.5 Q45 13.5 36.5 16.5 Z" fill="#111111"/>
+    <path d="M11 35 Q11 15 32 15 Q53 15 53 35 Q53 56 32 56 Q11 56 11 35 Z" fill="#111111"/>
+    <path d="M20.5 48.5 Q32 42.5 43.5 48.5 Q41.5 55.4 32 55.6 Q22.5 55.4 20.5 48.5 Z" fill="#FFFFFF"/>
+    <path d="M26.3 49.6 l1.7 1.8 l1.7 -1.8 M34.3 49.6 l1.7 1.8 l1.7 -1.8 M30.3 52.6 l1.7 1.8 l1.7 -1.8" stroke="#111111" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="23.2" cy="31" r="8.8" fill="#FFFFFF"/>
+    <circle cx="40.8" cy="31" r="8.8" fill="#FFFFFF"/>
+    <circle cx="23.2" cy="31" r="6.3" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <circle cx="40.8" cy="31" r="6.3" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <circle cx="24.3" cy="31.4" r="3.5" fill="#111111"/>
+    <circle cx="25.6" cy="30" r="1.15" fill="#FFFFFF"/>
+    <path d="M36.6 32.8 Q40.8 27.4 45 32.8" fill="none" stroke="#111111" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M27.6 38.2 Q32 36 36.4 38.2 Q35.4 42.8 32 45.4 Q28.6 42.8 27.6 38.2 Z" fill="#F5A023" stroke="#111111" stroke-width="0.9" stroke-linejoin="round"/>
+  </g>
+
+</svg>
